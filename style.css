@@ -1,0 +1,41 @@
+body{
+	background: url(img/tic-tac-toe.png) repeat center center fixed;
+	background-size: 400px;
+}
+
+
+.main_img {
+	text-align: center;
+}
+
+.main_img img{
+width: auto;
+height: 600px;
+padding: 15px;
+}
+
+.card{
+		border-radius: 5px;
+}
+.card:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75)
+	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.card-title{
+	text-align: center;
+}
+
+.card-text{
+	text-align: center;
+}
+
+.card-img-top{
+  max-width: 100%;
+  height: auto !important;
+}
+.row
+{
+	padding: 5px;
+}
